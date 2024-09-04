@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin:0px;
+    overflow: h;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    display: block;
+}
+
+.navbar li{
+    float: right;
+}
+
+.navbar a:hover{
+    background-color: #555555;
+}
+
+header{
+    text-align: center;
+    color: #f5f5f5;
+    padding-top: 1rem;
+    font-family: Codystar;
+    font-size: 50px;
+    text-shadow: -1px 1px 2px;
+}
+h2{
+    font-family: Raleway;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+body{
+    background-color: rgb(5, 5, 5);
+}
+
+#picture{
+    background-color: #cecdcd;
+}
+
+#profilepic{
+    padding-top: 2rem;
+    display: block;
+    margin-left: auto;  
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter:grayscale(100%);
+}
+
+#picdescription{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    background-color: #cecdcd;
+    padding-bottom: 2rem;
+    margin: 1rem;
+}
+
+#projectheading{
+    color: #f5f5f5;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 50px;
+}
+
+.projectName{
+    color: #f5f5f5;
+    font-size: 40px;
+    font-family: Raleway;
+}
+
+.description{
+    color: #f5f5f5;
+    font-size: 20px;
+    font-family: Playfair Display;
+    padding: 1px;
+}
+
+.projects{
+    margin: 8px -16px;
+}
+
+.projects,
+.projects > .container {
+  padding: 8px;
+}
+
+.container {
+    float: left;
+    width: 33.33%;
+}
+
+.projects:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    padding: 15px;
+}
+
+.buttons{
+    font-size: 15px;
+    font-family: Playfair Display;
+    justify-content: space-around;
+    width: auto;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+}
+
+.buttons:hover{
+    background-color: #858383;
+    cursor: pointer;
+}
+
+.hr2{
+    margin-top: 2rem;
+    border-top: 1px dotted #f5f5f5;
+}
+
+#contactheading{
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 15px;
+    font-family: Raleway;
+}
+
+#contactnumber{
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 15px;
+    font-family: Raleway;
+}
+
+.buttonWrap{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_container{
+    display: flex;
+    gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    background-color: rgb(5, 5, 5);
+    color: #f5f5f5;
+    border: 1px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: rgb(255, 255, 255);
+}
